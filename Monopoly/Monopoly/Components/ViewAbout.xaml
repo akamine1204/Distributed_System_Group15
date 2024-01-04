@@ -77,13 +77,13 @@
                 FontSize="25"
                 FontWeight="Heavy"           
                 BorderThickness="0"
-                Margin="955,610,122,74" 
+                Margin="1028,639,49,45" 
                 Click="BACK_Click">
             <Button.Background >
                 <ImageBrush ImageSource="/Images/btn/style2/btn_style2_gray.png" Opacity="0.7" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <StackPanel>
+        <StackPanel Margin="0,10,0,-10">
             <TextBlock Text="ĐƯỢC TẠO RA BỞI"
                    Height="100"
                    Width="1000" 
@@ -94,7 +94,27 @@
                    HorizontalAlignment="Center"
                    Margin="20"
                    />
-            <TextBlock Text="Bùi Tống Minh Châu"
+            <TextBlock Text="Trần Đức Hoàng - 20198178"
+                   Height="70"
+                   Width="959" 
+                   Foreground="LightGray"
+                   FontSize="50" 
+                   FontWeight="Heavy"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="15"
+                   />
+            <TextBlock Text="Ngô Minh Đạt - 20198165"
+                   Height="70"
+                   Width="855" 
+                   Foreground="LightGray"
+                   FontSize="50" 
+                   FontWeight="Heavy"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="15"
+                   />
+            <TextBlock Text="Trần Văn Hạ - 20198073"
                    Height="70"
                    Width="600" 
                    Foreground="LightGray"
@@ -104,7 +124,7 @@
                    HorizontalAlignment="Center"
                    Margin="15"
                    />
-            <TextBlock Text="Trần Ngọc Tiến"
+            <TextBlock Text="Lê Đức Mạnh - 20198173"
                    Height="70"
                    Width="600" 
                    Foreground="LightGray"
@@ -114,36 +134,24 @@
                    HorizontalAlignment="Center"
                    Margin="15"
                    />
-            <TextBlock Text="Trần Trọng Hoàng"
+            <TextBlock
                    Height="70"
-                   Width="600" 
+                   Width="781" 
                    Foreground="LightGray"
                    FontSize="50" 
                    FontWeight="Heavy"
                    TextAlignment="Center"
                    HorizontalAlignment="Center"
                    Margin="15"
-                   />
-            <TextBlock Text="Huỳnh Tuấn Anh"
-                   Height="70"
-                   Width="600" 
-                   Foreground="LightGray"
-                   FontSize="50" 
-                   FontWeight="Heavy"
-                   TextAlignment="Center"
-                   HorizontalAlignment="Center"
-                   Margin="15"
-                   />
-            <TextBlock Text="Vũ Xuân Hoàng Lâm"
-                   Height="70"
-                   Width="600" 
-                   Foreground="LightGray"
-                   FontSize="50" 
-                   FontWeight="Heavy"
-                   TextAlignment="Center"
-                   HorizontalAlignment="Center"
-                   Margin="15"
-                   />
+                   ><Run Text="Lương Việt Anh - 20176004"/><LineBreak/><Run/></TextBlock>
+            <TextBlock
+                Height="70"
+                Width="781" 
+                Foreground="LightGray"
+                FontSize="50" 
+                FontWeight="Heavy"
+                TextAlignment="Center"
+                   ><Run Text="Trần Tất Hoàng - 20158995"/><LineBreak/><Run/></TextBlock>
         </StackPanel>
     </Grid>
 </UserControl>
